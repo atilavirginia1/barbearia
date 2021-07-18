@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="produtos-style.css">
+    <link rel="stylesheet" href="marcacao.css">
+    <title>Produtos - Barbearia Alura</title>
+</head>
+
+
+<body>
+    <header>
+        <div class="caixa">
+            <a href="./home.html"><img src="./img/logo-branco.png"> </a>
+            <nav>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="cform">
+            <form action="#">
+                <h1>Marcação Online</h1>
+                <input type="text" id="fname" class="inputs" name="fname" placeholder="Nome Completo">
+                <input type="number" id="celular" class="inputs" name="celular" placeholder="Celular">
+                <select id="tipocorte" name="tipocorte" class="inputs">
+                    <option value="0">Barba</option>
+                    <option value="1">Cabelo</option>
+                    <option value="2">Barba + Cabelo</option>
+                    <input type="text" placeholder="Selecionar data" id="datepicker" class="inputs">
+                    <input type="submit" class="btns" value="Enviar">
+                </select>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <img src="./img/logo-branco.png">
+        <p>&copy; Copyright Barbearia Alura - 2021</p>
+    </footer>
+    <script type="text/javascript" src="./marcacao.js"></script>
+    <script type="text/javascript" src="./produtos.js"></script>
+</body>
+
+</html>
