@@ -14,3 +14,7 @@ if (corte != null) {
         $('#tipocorte').val("2").change();
     }
 }
+
+function enviado(){
+    alert("Marcação realizada com sucesso!")
+}
